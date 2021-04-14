@@ -1,0 +1,142 @@
+
+*{
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+html,
+body{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 18px;
+}
+
+h1, h2, h3{
+  margin: 0;
+}
+
+.max-width-wrapper{
+  max-width: 800px;
+  margin: auto;
+  padding: 32px;
+}
+
+.intro-chunk{
+  padding: 96px 0;
+  max-width: 400px;
+}
+
+.intro-chunk .title{
+  font-size: 2rem;
+  margin-bottom: 32px;
+}
+
+.intro-chunk p{
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+
+.intro-chunk strong{
+  color: hsl(160deg, 100%, 30%);
+}
+
+header{
+  border-bottom: 8px solid hsl(0deg,0%,40%);
+}
+
+main{
+  background-color: hsl(0deg,0%,60%);
+  padding: 96px 0;
+}
+
+.card{
+  background-color: hsl(0deg,0%,100%);
+  padding: 24px;
+  margin: -24px;
+  border-bottom: 8px solid hsl(0deg,0%,40%);
+}
+
+.card p{
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+
+.indented-heading{
+  background-color: hsl(45deg, 100%, 50%);
+  margin-left: -32px;
+  margin-top: -16px;
+  padding: 16px 32px;
+  width: fit-content;
+  border-bottom: 8px solid hsl(45,100%,40%);
+}
+
+.card p:last-child{
+  margin-bottom: 0;
+}
+
+/* 
+
+My original code.
+
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  --gutter: 16px;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: hsl(0deg,0%,60%);
+}
+
+header{
+  background-color: white;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.intro-chunk{
+  padding: 0 var(--gutter);
+  font-size: 1.25rem;
+  max-width: 400px;
+}
+
+h1{
+  margin-bottom: 48px;
+}
+
+main{
+  padding-top: 48px;
+  padding-bottom: 64px;
+  border-top: 8px solid hsl(0deg,0%,40%);
+}
+
+
+strong{
+  color: hsl(160deg, 100%, 30%);
+}
+
+.max-width-wrapper{
+  margin: auto;
+  max-width: 800px;
+}
+
+.card{
+  background-color: white;
+  padding: var(--gutter);
+}
+
+.indented-heading{
+  background-color: hsl(45deg,100%,50%);
+  width: fit-content;
+  padding: 16px calc(8px + var(--gutter));
+  border-bottom: 8px solid hsl(45deg,100%,40%);
+  margin-top: -8px;
+  margin-left: calc(var(--gutter)*-1 - 8px);
+} */
