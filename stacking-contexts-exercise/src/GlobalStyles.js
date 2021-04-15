@@ -53,4 +53,10 @@ export default createGlobalStyle`
     border-collapse: collapse;
     border-spacing: 0;
   }
+
+  #root{
+    isolation: isolate;
+  }
 `;
+
+
